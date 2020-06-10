@@ -17,7 +17,7 @@ import lombok.ToString;
  */
 @Data
 @Entity
-@EqualsAndHashCode(exclude = {"recipes"})
+
 public class Category {
 
     @Id
