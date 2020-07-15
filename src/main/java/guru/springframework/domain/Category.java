@@ -8,14 +8,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * Created by jt on 6/13/17.
  */
-@Data
+@Getter
+@Setter
 @Entity
 
 public class Category {

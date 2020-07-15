@@ -17,14 +17,16 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
-import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
 /**
  * Created by jt on 6/13/17.
  */
-@Data
+@Getter
+@Setter
 @Entity
 @EqualsAndHashCode(exclude = "categories")
 @ToString(exclude = {"categories", "ingredients"})

@@ -7,14 +7,16 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 
-import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
 /**
  * Created by jt on 6/13/17.
  */
-@Data
+@Getter
+@Setter
 @Entity
 @EqualsAndHashCode(exclude = "recipe")
 @ToString(exclude = "recipe")
